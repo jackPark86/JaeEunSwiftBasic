@@ -17,10 +17,19 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    
+    /**
+            이 메소드는 앱이 처음 실행될 때, 필요한 시스템적 처리를 모두 끝내고 메인 화면을 표시하기 직전에 호출 됨.
+             다시 말해, 앱이 맨 처음 실행될 때 시작 화면이 모바일 기기의 스크린에 표시된 후 이 메소드가 호출되고,이 메소드 내부에 작성된
+             내용이 모두 실행되고 나면 Main.storyboard 파일의 화면이 스크린에 표시 됨.
+            - p60
+     */
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch
+        
+        // 이 부분은 프로세스의 진행을 멈춰 시작 화면이 표시되는 시간을 늘려주는 역할을 함
+        sleep(5) //5초 간 지연 시킴
+        
         return true
     }
 
