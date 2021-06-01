@@ -15,6 +15,7 @@
 		273449F32664927600E6337F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273449F12664927600E6337F /* LaunchScreen.storyboard */; };
 		273449FE2664927600E6337F /* Scene_Trans02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273449FD2664927600E6337F /* Scene_Trans02Tests.swift */; };
 		27344A092664927600E6337F /* Scene_Trans02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27344A082664927600E6337F /* Scene_Trans02UITests.swift */; };
+		27B214462665D8E8006AD5C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B214452665D8E8006AD5C6 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		27344A042664927600E6337F /* Scene-Trans02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scene-Trans02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27344A082664927600E6337F /* Scene_Trans02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Trans02UITests.swift; sourceTree = "<group>"; };
 		27344A0A2664927600E6337F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B214452665D8E8006AD5C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				273449EF2664927600E6337F /* Assets.xcassets */,
 				273449F12664927600E6337F /* LaunchScreen.storyboard */,
 				273449F42664927600E6337F /* Info.plist */,
+				27B214452665D8E8006AD5C6 /* SecondViewController.swift */,
 			);
 			path = "Scene-Trans02";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B214462665D8E8006AD5C6 /* SecondViewController.swift in Sources */,
 				273449EB2664927400E6337F /* ViewController.swift in Sources */,
 				273449E72664927400E6337F /* AppDelegate.swift in Sources */,
 				273449E92664927400E6337F /* SceneDelegate.swift in Sources */,
