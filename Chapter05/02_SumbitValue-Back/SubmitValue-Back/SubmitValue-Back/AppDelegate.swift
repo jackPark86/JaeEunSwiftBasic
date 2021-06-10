@@ -10,8 +10,16 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    /**
+                AppDelegate는 UIApplication 객체로부터 생명 주기 관리를 위임받아 커스텀 코드를 처리하는 역할을 한다. 하지만 이 객체는 앱 전체를 통틀어 단 하나만 존재하므로 여러 뷰 컨트롤러에서 모두 접근할 수 있고. 앱 프로세스의 생성/소멸과 운명을 함께 하므로 이 객체에 값을 저장하면 앱이 종료되지 않는 한 값을 계속 유지할 수 있다.
+     */
 
-
+    
+    //값을 저장할 변수를 정의
+    var paramEmail : String?
+    var paramUpdate : Bool?
+    var paramInterval : Double?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
