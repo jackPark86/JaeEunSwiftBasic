@@ -39,6 +39,14 @@
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdm-k8-qhB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0D-oa-i3U">
+                                <rect key="frame" x="173" y="508" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="사용자 인증"/>
+                                <connections>
+                                    <action selector="auth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBo-uC-uNH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -83,5 +83,44 @@ class ViewController: UIViewController {
         self.present(alert, animated: false)
     }//end of login
     
+    
+    //메시지 창을 이용한 인증 화면 구성
+    @IBAction func auth(_ sender: Any) {
+       //메시지 창 관력 객체 정의
+        let msg = "로그인"
+        let alert = UIAlertController(title: nil, message: msg, preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "취소", style: .cancel)
+        let ok = UIAlertAction(title: "확인", style: .default){ (_) in
+            //확인 버튼을 클릭했을 때 실행할 내용
+            let loginId = alert.textFields?[0].text
+            let loginPw = alert.textFields?[1].text
+            
+            if loginId == "aaaa" && loginPw == "1234" {
+                self.result.text = "인증되었습니다"
+            } else {
+                self.result.text = "인증에 실패하였습니다"
+            }
+            
+        }//end of ok
+        
+        //정의된 액션 버튼 객체를 메시지창에 추가
+        alert.addAction(cancel)
+        alert.addAction(ok)
+        
+        //아이디 필드 추가
+        alert.addTextField(configurationHandler: {(tf) in
+            tf.placeholder = "아이디" //미리 보여줄 안내 메시지
+            tf.isSecureTextEntry = false //입력시 별표(*) 처리 안함
+        })
+        
+        //비밀번호 필드 추가
+        alert.addTextField(configurationHandler: {(tf) in
+            tf.placeholder = "비밀번호"
+            tf.isSecureTextEntry = true
+        })
+        
+        self.present(alert, animated: false)
+        
+    }//end of auth
 }//end of class
 
