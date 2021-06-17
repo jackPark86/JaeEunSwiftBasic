@@ -10,7 +10,7 @@ import UserNotifications
 
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
 
 
@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //경고창, 배지, 사운드를 사용하는 알림 환경 정보를 생성하고, 사용자 동의 여부 창을 실행
             let notiCenter = UNUserNotificationCenter.current()
             notiCenter.requestAuthorization(options: [.alert, .badge, .sound]){(didAllow, e) in}
+            notiCenter.delegate = self //알림 센터 이벤트 발생시 앱 델리게이트에게 알려주는 코드
         } else {
             
             
@@ -47,10 +48,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     
+    /**
+     iOS 13 이후 변경된 생명주기 이벤트 전달 방식 때문임.
+     백그라운드에 들어갔을 때 호출되는 메소드는
+     AppDelegate.swift의 applicationWillResignActive(_:)가 아닌,
+     SceneDelegate.swift의 sceneWillResignActive(_:)임.
+     */
     //앱이 활성화 상태를 잃었을 때 실행되는 메소드
     func applicationWillResignActive(_ application: UIApplication) {
         NSLog("applicationWillResignActive Enter!!")
-        if #available(iOS 10.0, *){
+       /* if #available(iOS 10.0, *){
             //알림 동의 여부 확인
             UNUserNotificationCenter.current().getNotificationSettings{ settings in
                 if settings.authorizationStatus == UNAuthorizationStatus.authorized {
@@ -79,13 +86,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         } else { //ios 9 이하
             
-        }
+        }*/
         
     }//end of applicationWillResignActive
 
+    //앱 실행 도중에 알림 메시지가 도착할 경우
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        if notification.request.identifier == "wakeup" {
+            let userInfo = notification.request.content.userInfo
+            print(userInfo["name"]!)
+        }
+
+        //알림 배너 띄워주기
+        //completionHandler([.alert, .badge, .sound])//.alert ios14 deprecated
+        completionHandler([.banner, .badge, .sound])
+    
+    }//end of userNotificationCenter
+    
+    //사용자가 알림 메시지를 클릭했을 경우
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        if response.notification.request.identifier == "wakeup" {
+            let userInfo = response.notification.request.content.userInfo
+            print(userInfo["name"]!)
+        }
+
+        completionHandler()
+    }//end of userNotificationCenter
     
     
     
     
+    
+
 }//end of class
 
