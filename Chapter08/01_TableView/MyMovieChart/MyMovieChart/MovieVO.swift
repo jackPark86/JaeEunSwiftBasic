@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 class MovieVO {
     
     var thumbnail: String? //영화 섬네일 이미지 주소

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273AA54D268D6DFC0004E084 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AA54C268D6DFC0004E084 /* MovieCell.swift */; };
+		27E24E542692A60C0056C7C8 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E24E512692A60B0056C7C8 /* secret.jpg */; };
+		27E24E552692A60C0056C7C8 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E24E522692A60B0056C7C8 /* darknight.jpg */; };
+		27E24E562692A60C0056C7C8 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E24E532692A60C0056C7C8 /* rain.jpg */; };
 		27E7EE85268431520080338C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7EE84268431520080338C /* AppDelegate.swift */; };
 		27E7EE87268431520080338C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7EE86268431520080338C /* SceneDelegate.swift */; };
 		27E7EE89268431520080338C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7EE88268431520080338C /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273AA54C268D6DFC0004E084 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		27E24E512692A60B0056C7C8 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		27E24E522692A60B0056C7C8 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		27E24E532692A60C0056C7C8 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
 		27E7EE81268431520080338C /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E7EE84268431520080338C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E7EE86268431520080338C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273AA551268D73450004E084 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E24E522692A60B0056C7C8 /* darknight.jpg */,
+				27E24E532692A60C0056C7C8 /* rain.jpg */,
+				27E24E512692A60B0056C7C8 /* secret.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		27E7EE78268431520080338C = {
 			isa = PBXGroup;
 			children = (
+				273AA551268D73450004E084 /* Resources */,
 				27E7EE83268431520080338C /* MyMovieChart */,
 				27E7EE9A268431550080338C /* MyMovieChartTests */,
 				27E7EEA5268431550080338C /* MyMovieChartUITests */,
@@ -107,6 +126,7 @@
 				27E7EE86268431520080338C /* SceneDelegate.swift */,
 				27E7EE88268431520080338C /* ViewController.swift */,
 				27E7EE8A268431520080338C /* Main.storyboard */,
+				273AA54C268D6DFC0004E084 /* MovieCell.swift */,
 				27E7EEBC268436C90080338C /* MovieVO.swift */,
 				27E7EEB72684326B0080338C /* ListViewController.swift */,
 				27E7EE8D268431550080338C /* Assets.xcassets */,
@@ -238,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E7EE91268431550080338C /* LaunchScreen.storyboard in Resources */,
+				27E24E562692A60C0056C7C8 /* rain.jpg in Resources */,
 				27E7EE8E268431550080338C /* Assets.xcassets in Resources */,
 				27E7EE8C268431520080338C /* Main.storyboard in Resources */,
+				27E24E542692A60C0056C7C8 /* secret.jpg in Resources */,
+				27E24E552692A60C0056C7C8 /* darknight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +289,7 @@
 			files = (
 				27E7EE89268431520080338C /* ViewController.swift in Sources */,
 				27E7EE85268431520080338C /* AppDelegate.swift in Sources */,
+				273AA54D268D6DFC0004E084 /* MovieCell.swift in Sources */,
 				27E7EEB82684326B0080338C /* ListViewController.swift in Sources */,
 				27E7EE87268431520080338C /* SceneDelegate.swift in Sources */,
 				27E7EEBD268436C90080338C /* MovieVO.swift in Sources */,
