@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277AC6C72697F8BB0076601A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AC6C62697F8BB0076601A /* AppDelegate.swift */; };
+		277AC6C92697F8BB0076601A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AC6C82697F8BB0076601A /* SceneDelegate.swift */; };
+		277AC6CB2697F8BB0076601A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AC6CA2697F8BB0076601A /* ViewController.swift */; };
+		277AC6CE2697F8BB0076601A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277AC6CC2697F8BB0076601A /* Main.storyboard */; };
+		277AC6D02697F8BE0076601A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277AC6CF2697F8BE0076601A /* Assets.xcassets */; };
+		277AC6D32697F8BE0076601A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277AC6D12697F8BE0076601A /* LaunchScreen.storyboard */; };
+		277AC6DE2697F8BE0076601A /* MyMovieChart_SpinoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AC6DD2697F8BE0076601A /* MyMovieChart_SpinoffTests.swift */; };
+		277AC6E92697F8BE0076601A /* MyMovieChart_SpinoffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AC6E82697F8BE0076601A /* MyMovieChart_SpinoffUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277AC6DA2697F8BE0076601A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277AC6BB2697F8BB0076601A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277AC6C22697F8BB0076601A;
+			remoteInfo = "MyMovieChart-Spinoff";
+		};
+		277AC6E52697F8BE0076601A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277AC6BB2697F8BB0076601A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277AC6C22697F8BB0076601A;
+			remoteInfo = "MyMovieChart-Spinoff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		277AC6C32697F8BB0076601A /* MyMovieChart-Spinoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyMovieChart-Spinoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277AC6C62697F8BB0076601A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277AC6C82697F8BB0076601A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		277AC6CA2697F8BB0076601A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		277AC6CD2697F8BB0076601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277AC6CF2697F8BE0076601A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277AC6D22697F8BE0076601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277AC6D42697F8BE0076601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277AC6D92697F8BE0076601A /* MyMovieChart-SpinoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyMovieChart-SpinoffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277AC6DD2697F8BE0076601A /* MyMovieChart_SpinoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieChart_SpinoffTests.swift; sourceTree = "<group>"; };
+		277AC6DF2697F8BE0076601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277AC6E42697F8BE0076601A /* MyMovieChart-SpinoffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyMovieChart-SpinoffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277AC6E82697F8BE0076601A /* MyMovieChart_SpinoffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieChart_SpinoffUITests.swift; sourceTree = "<group>"; };
+		277AC6EA2697F8BE0076601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277AC6C02697F8BB0076601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6D62697F8BE0076601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6E12697F8BE0076601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277AC6BA2697F8BB0076601A = {
+			isa = PBXGroup;
+			children = (
+				277AC6C52697F8BB0076601A /* MyMovieChart-Spinoff */,
+				277AC6DC2697F8BE0076601A /* MyMovieChart-SpinoffTests */,
+				277AC6E72697F8BE0076601A /* MyMovieChart-SpinoffUITests */,
+				277AC6C42697F8BB0076601A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277AC6C42697F8BB0076601A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277AC6C32697F8BB0076601A /* MyMovieChart-Spinoff.app */,
+				277AC6D92697F8BE0076601A /* MyMovieChart-SpinoffTests.xctest */,
+				277AC6E42697F8BE0076601A /* MyMovieChart-SpinoffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277AC6C52697F8BB0076601A /* MyMovieChart-Spinoff */ = {
+			isa = PBXGroup;
+			children = (
+				277AC6C62697F8BB0076601A /* AppDelegate.swift */,
+				277AC6C82697F8BB0076601A /* SceneDelegate.swift */,
+				277AC6CA2697F8BB0076601A /* ViewController.swift */,
+				277AC6CC2697F8BB0076601A /* Main.storyboard */,
+				277AC6CF2697F8BE0076601A /* Assets.xcassets */,
+				277AC6D12697F8BE0076601A /* LaunchScreen.storyboard */,
+				277AC6D42697F8BE0076601A /* Info.plist */,
+			);
+			path = "MyMovieChart-Spinoff";
+			sourceTree = "<group>";
+		};
+		277AC6DC2697F8BE0076601A /* MyMovieChart-SpinoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				277AC6DD2697F8BE0076601A /* MyMovieChart_SpinoffTests.swift */,
+				277AC6DF2697F8BE0076601A /* Info.plist */,
+			);
+			path = "MyMovieChart-SpinoffTests";
+			sourceTree = "<group>";
+		};
+		277AC6E72697F8BE0076601A /* MyMovieChart-SpinoffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				277AC6E82697F8BE0076601A /* MyMovieChart_SpinoffUITests.swift */,
+				277AC6EA2697F8BE0076601A /* Info.plist */,
+			);
+			path = "MyMovieChart-SpinoffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277AC6C22697F8BB0076601A /* MyMovieChart-Spinoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277AC6ED2697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-Spinoff" */;
+			buildPhases = (
+				277AC6BF2697F8BB0076601A /* Sources */,
+				277AC6C02697F8BB0076601A /* Frameworks */,
+				277AC6C12697F8BB0076601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyMovieChart-Spinoff";
+			productName = "MyMovieChart-Spinoff";
+			productReference = 277AC6C32697F8BB0076601A /* MyMovieChart-Spinoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		277AC6D82697F8BE0076601A /* MyMovieChart-SpinoffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277AC6F02697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-SpinoffTests" */;
+			buildPhases = (
+				277AC6D52697F8BE0076601A /* Sources */,
+				277AC6D62697F8BE0076601A /* Frameworks */,
+				277AC6D72697F8BE0076601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277AC6DB2697F8BE0076601A /* PBXTargetDependency */,
+			);
+			name = "MyMovieChart-SpinoffTests";
+			productName = "MyMovieChart-SpinoffTests";
+			productReference = 277AC6D92697F8BE0076601A /* MyMovieChart-SpinoffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		277AC6E32697F8BE0076601A /* MyMovieChart-SpinoffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277AC6F32697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-SpinoffUITests" */;
+			buildPhases = (
+				277AC6E02697F8BE0076601A /* Sources */,
+				277AC6E12697F8BE0076601A /* Frameworks */,
+				277AC6E22697F8BE0076601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277AC6E62697F8BE0076601A /* PBXTargetDependency */,
+			);
+			name = "MyMovieChart-SpinoffUITests";
+			productName = "MyMovieChart-SpinoffUITests";
+			productReference = 277AC6E42697F8BE0076601A /* MyMovieChart-SpinoffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277AC6BB2697F8BB0076601A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					277AC6C22697F8BB0076601A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					277AC6D82697F8BE0076601A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 277AC6C22697F8BB0076601A;
+					};
+					277AC6E32697F8BE0076601A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 277AC6C22697F8BB0076601A;
+					};
+				};
+			};
+			buildConfigurationList = 277AC6BE2697F8BB0076601A /* Build configuration list for PBXProject "MyMovieChart-Spinoff" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277AC6BA2697F8BB0076601A;
+			productRefGroup = 277AC6C42697F8BB0076601A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277AC6C22697F8BB0076601A /* MyMovieChart-Spinoff */,
+				277AC6D82697F8BE0076601A /* MyMovieChart-SpinoffTests */,
+				277AC6E32697F8BE0076601A /* MyMovieChart-SpinoffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277AC6C12697F8BB0076601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277AC6D32697F8BE0076601A /* LaunchScreen.storyboard in Resources */,
+				277AC6D02697F8BE0076601A /* Assets.xcassets in Resources */,
+				277AC6CE2697F8BB0076601A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6D72697F8BE0076601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6E22697F8BE0076601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277AC6BF2697F8BB0076601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277AC6CB2697F8BB0076601A /* ViewController.swift in Sources */,
+				277AC6C72697F8BB0076601A /* AppDelegate.swift in Sources */,
+				277AC6C92697F8BB0076601A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6D52697F8BE0076601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277AC6DE2697F8BE0076601A /* MyMovieChart_SpinoffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277AC6E02697F8BE0076601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277AC6E92697F8BE0076601A /* MyMovieChart_SpinoffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277AC6DB2697F8BE0076601A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277AC6C22697F8BB0076601A /* MyMovieChart-Spinoff */;
+			targetProxy = 277AC6DA2697F8BE0076601A /* PBXContainerItemProxy */;
+		};
+		277AC6E62697F8BE0076601A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277AC6C22697F8BB0076601A /* MyMovieChart-Spinoff */;
+			targetProxy = 277AC6E52697F8BE0076601A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		277AC6CC2697F8BB0076601A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277AC6CD2697F8BB0076601A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		277AC6D12697F8BE0076601A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277AC6D22697F8BE0076601A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277AC6EB2697F8BE0076601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277AC6EC2697F8BE0076601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277AC6EE2697F8BE0076601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-Spinoff/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-Spinoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277AC6EF2697F8BE0076601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-Spinoff/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-Spinoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		277AC6F12697F8BE0076601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-SpinoffTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-SpinoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMovieChart-Spinoff.app/MyMovieChart-Spinoff";
+			};
+			name = Debug;
+		};
+		277AC6F22697F8BE0076601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-SpinoffTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-SpinoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMovieChart-Spinoff.app/MyMovieChart-Spinoff";
+			};
+			name = Release;
+		};
+		277AC6F42697F8BE0076601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-SpinoffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-SpinoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyMovieChart-Spinoff";
+			};
+			name = Debug;
+		};
+		277AC6F52697F8BE0076601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyMovieChart-SpinoffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackpark.MyMovieChart-SpinoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyMovieChart-Spinoff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277AC6BE2697F8BB0076601A /* Build configuration list for PBXProject "MyMovieChart-Spinoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277AC6EB2697F8BE0076601A /* Debug */,
+				277AC6EC2697F8BE0076601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277AC6ED2697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-Spinoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277AC6EE2697F8BE0076601A /* Debug */,
+				277AC6EF2697F8BE0076601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277AC6F02697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-SpinoffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277AC6F12697F8BE0076601A /* Debug */,
+				277AC6F22697F8BE0076601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277AC6F32697F8BE0076601A /* Build configuration list for PBXNativeTarget "MyMovieChart-SpinoffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277AC6F42697F8BE0076601A /* Debug */,
+				277AC6F52697F8BE0076601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277AC6BB2697F8BB0076601A /* Project object */;
+}
