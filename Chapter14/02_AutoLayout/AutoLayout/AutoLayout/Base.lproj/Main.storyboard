@@ -59,26 +59,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AUb-zr-bif" userLabel="뷰A">
-                                <rect key="frame" x="20" y="66" width="174" height="352"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUb-zr-bif" userLabel="뷰A">
+                                <rect key="frame" x="20" y="66" width="174" height="371.5"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foG-QM-cG2" userLabel="뷰C">
-                                <rect key="frame" x="20" y="440" width="374" height="391"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foG-QM-cG2" userLabel="뷰C">
+                                <rect key="frame" x="20" y="459.5" width="374" height="371.5"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xB1-6B-osk" userLabel="뷰B">
-                                <rect key="frame" x="220" y="66" width="174" height="352"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xB1-6B-osk" userLabel="뷰B">
+                                <rect key="frame" x="220" y="66" width="174" height="371.5"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2St-33-wkd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="2St-33-wkd" firstAttribute="bottom" secondItem="foG-QM-cG2" secondAttribute="bottom" constant="31" id="5zY-ef-i02"/>
+                            <constraint firstItem="xB1-6B-osk" firstAttribute="height" secondItem="AUb-zr-bif" secondAttribute="height" id="9uD-z6-nqW"/>
+                            <constraint firstItem="2St-33-wkd" firstAttribute="trailing" secondItem="xB1-6B-osk" secondAttribute="trailing" constant="20" id="FAo-jl-4e4"/>
+                            <constraint firstItem="xB1-6B-osk" firstAttribute="width" secondItem="AUb-zr-bif" secondAttribute="width" id="M7u-ik-RtE"/>
+                            <constraint firstItem="xB1-6B-osk" firstAttribute="top" secondItem="2St-33-wkd" secondAttribute="top" constant="22" id="SGL-Go-Lxy"/>
+                            <constraint firstItem="foG-QM-cG2" firstAttribute="height" secondItem="AUb-zr-bif" secondAttribute="height" id="TT5-qV-l12"/>
                             <constraint firstItem="AUb-zr-bif" firstAttribute="top" secondItem="2St-33-wkd" secondAttribute="top" constant="22" id="e8C-Ox-pPm"/>
+                            <constraint firstItem="foG-QM-cG2" firstAttribute="leading" secondItem="2St-33-wkd" secondAttribute="leading" constant="20" id="egw-bd-X0n"/>
+                            <constraint firstItem="2St-33-wkd" firstAttribute="trailing" secondItem="foG-QM-cG2" secondAttribute="trailing" constant="20" id="myB-2D-YPi"/>
+                            <constraint firstItem="xB1-6B-osk" firstAttribute="leading" secondItem="AUb-zr-bif" secondAttribute="trailing" constant="26" id="pNw-Oc-2RA"/>
                             <constraint firstItem="AUb-zr-bif" firstAttribute="leading" secondItem="2St-33-wkd" secondAttribute="leading" constant="20" id="u25-fy-arW"/>
+                            <constraint firstItem="foG-QM-cG2" firstAttribute="top" secondItem="AUb-zr-bif" secondAttribute="bottom" constant="22" id="uRk-30-PWu"/>
                         </constraints>
                     </view>
                 </viewController>
